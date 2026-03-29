@@ -14,7 +14,7 @@
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+       <li><a href="#contact">Contact Us</a></li>
         <li><a href="#about">About Us</a></li>
       </ul>
     </nav>
@@ -24,7 +24,7 @@
     <p>Creating modern, responsive, and beautiful websites.</p>
     <a href="#projects" class="cta-btn">View Projects</a>
   </section>
-  
+
   <section class="projects-section" id="projects">
     <h2>My Projects</h2>
     <div class="projects-grid">
@@ -80,7 +80,31 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
+<section class="contact-section framed">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+     <label for="subject">Subject</label>
+     
+      <select id="subject" name="subject" required>
+        <option value="">Select a subject</option>
+        <option value="design">Web Design</option>
+        <option value="development">Development</option>
+        <option value="other">App Design</option>
+       <option value="other">Other</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
   <footer>
     <p>&copy; 2026 MyPortfolio. All rights reserved.</p>
     <p>Follow me on 

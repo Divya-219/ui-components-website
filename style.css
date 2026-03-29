@@ -171,6 +171,13 @@ footer {
   font-size: 1rem;
   
 }
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus 
+{
+  outline: 2px solid #00bcd4;
+  border-color: #00bcd4;
+}
 
 
 
