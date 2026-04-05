@@ -65,6 +65,7 @@ searchInput.addEventListener("input", () => {
     project.description.toLowerCase().includes(query) ||
     project.category.toLowerCase().includes(query)
   );
-
+console.log("Search query:", query);
+console.log("Filtered projects:", filtered);
   renderProjects(filtered);
 });
