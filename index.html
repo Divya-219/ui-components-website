@@ -27,60 +27,13 @@
 
   <section class="projects-section" id="projects">
     <h2>My Projects</h2>
-    <div class="projects-grid">
+    <input type="text" id="searchInput" placeholder="Search Projects..." class="search-bar">
 
-      <article class="project-card">
-        <div class="project-image">
-          <img src="images/webdesign1.jpg" alt="Web Design">
-          <span class="badge">Web Design</span>
-        </div>
-        <div class="project-content">
-          <h3>Project 1</h3>
-          <p>Modern responsive website design with clean layout.</p>
-          <button>View Project</button>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-image">
-          <img src="images/App design.jpg" alt="App Design">
-          <span class="badge">App Design</span>
-        </div>
-        <div class="project-content">
-          <h3>Project 2</h3>
-          <p>User-friendly mobile application.</p>
-          <button>View Project</button>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-image">
-          <img src="images/Backend Developer.jpg" alt="Backend Development">
-          <span class="badge">Backend-Developer</span>
-        </div>
-        <div class="project-content">
-          <h3>Project 3</h3>
-          <p>Server-side logic and database management.</p>
-          <button>View Project</button>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-image">
-          <img src="images/Testing1.jpg" alt="Testing">
-          <span class="badge">Testing</span>
-        </div>
-        <div class="project-content">
-          <h3>Project 4</h3>
-          <p>Quality assurance and responsive testing.</p>
-          <button>View Project</button>
-        </div>
-      </article>
-
-    </div>
+    <div class="projects-grid" id="projectsGrid">
+</div>
   </section>
 
-<section class="contact-section framed">
+<section class="contact-section framed" id="contact">
     <h2>Contact Me</h2>
     <form class="contact-form">
 
@@ -94,7 +47,7 @@
         <option value="">Select a subject</option>
         <option value="design">Web Design</option>
         <option value="development">Development</option>
-        <option value="other">App Design</option>
+        <option value="app">App Design</option>
        <option value="other">Other</option>
       </select>
 
@@ -113,6 +66,6 @@
      
     </p>
   </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
