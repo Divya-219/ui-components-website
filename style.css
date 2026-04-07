@@ -72,8 +72,11 @@
 
 .projects-grid {
   display: grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ grid-template-columns: repeat(auto-fit, 250px);
   gap: 20px;
+   max-width: 1200px; 
+  margin: 0 auto;
+   justify-content: center;
   margin-top: 30px;
 }
 
@@ -157,7 +160,13 @@ footer {
   border:  solid #00bcd4;
   border-radius: 12px;
   background: #f9f9f9;
-  
+ 
+}
+.contact-section.framed h2 {
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 2rem;
+  text-align: center; 
 }
 
 
