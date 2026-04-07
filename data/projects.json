@@ -1,27 +1,26 @@
- [
+[
   {
-    title: "Project 1",
-    description: "Modern responsive website design.",
-    category: "Web Design",
-    image: "images/webdesign1.jpg"
+    "title": "Project 1",
+    "description": "Modern responsive website design.",
+    "category": "Web Design",
+    "image": "images/webdesign1.jpg"
   },
   {
-    title: "Project 2",
-    description: "User-friendly mobile application.",
-    category: "App Design",
-    image: "images/App design.jpg"
+    "title": "Project 2",
+    "description": "User-friendly mobile application.",
+    "category": "App Design",
+    "image": "images/App design.jpg"
   },
   {
-    title: "Project 3",
-    description: "Backend logic and database.",
-    category: "Backend",
-    image: "images/Backend Developer.jpg"
+    "title": "Project 3",
+    "description": "Backend logic and database.",
+    "category": "Backend",
+    "image": "images/Backend Developer.jpg"
   },
   {
-    title: "Project 4",
-    description: "Testing and QA.",
-    category: "Testing",
-    image: "images/Testing1.jpg"
+    "title": "Project 4",
+    "description": "Testing and QA.",
+    "category": "Testing",
+    "image": "images/Testing1.jpg"
   }
- ]
-
+]
