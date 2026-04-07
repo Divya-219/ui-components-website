@@ -1,32 +1,19 @@
-const projects = [
-  {
-    title: "Project 1",
-    description: "Modern responsive website design.",
-    category: "Web Design",
-    image: "images/webdesign1.jpg"
-  },
-  {
-    title: "Project 2",
-    description: "User-friendly mobile application.",
-    category: "App Design",
-    image: "images/App design.jpg"
-  },
-  {
-    title: "Project 3",
-    description: "Backend logic and database.",
-    category: "Backend",
-    image: "images/Backend Developer.jpg"
-  },
-  {
-    title: "Project 4",
-    description: "Testing and QA.",
-    category: "Testing",
-    image: "images/Testing1.jpg"
-  }
-];
+
 const container = document.getElementById("projectsGrid");
 const searchInput = document.getElementById("searchInput");
 
+let projects = []; 
+fetch('https://divya-219.github.io/ui-components-website/data/projects.json')
+  .then(response => response.json())
+  .then(jsonData => {
+    projects = jsonData;
+console.table(projects); 
+renderProjects(projects);
+  })
+  .catch(error => {
+    console.error("Error fetching projects:", error);
+    projectContainer.innerHTML = "<p>Failed to load projects.</p>";
+  });
 
 function renderProjects(projectList) {
 
@@ -68,4 +55,5 @@ searchInput.addEventListener("input", () => {
 console.log("Search query:", query);
 console.log("Filtered projects:", filtered);
   renderProjects(filtered);
+   console.log(filtered);
 });
